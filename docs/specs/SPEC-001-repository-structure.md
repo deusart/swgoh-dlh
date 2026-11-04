@@ -56,7 +56,8 @@ swgoh-dlh/
 │       ├── TASK-007-execute-spec.md
 │       ├── TASK-008-versioning.md
 │       ├── TASK-009-origin-secrets.md
-│       └── TASK-010-agent-roles.md
+│       ├── TASK-010-agent-roles.md
+│       └── TASK-011-reviewer-version.md
 ├── tools/
 │   └── check-docs.mjs
 └── dlh/

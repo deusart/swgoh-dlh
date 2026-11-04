@@ -22,3 +22,4 @@
 | [tasks/TASK-008-versioning.md](tasks/TASK-008-versioning.md) | Версионность и коммиты |
 | [tasks/TASK-009-origin-secrets.md](tasks/TASK-009-origin-secrets.md) | Origin и секреты |
 | [tasks/TASK-010-agent-roles.md](tasks/TASK-010-agent-roles.md) | Роли субагентов |
+| [tasks/TASK-011-reviewer-version.md](tasks/TASK-011-reviewer-version.md) | Reviewer на границе версии |

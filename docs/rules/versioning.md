@@ -46,11 +46,12 @@ date: 2026-11-05
 
 ## 3. Порядок релиза
 
-1. Обновить `version` в `pyproject.toml` и `dlh/dbt/dbt_project.yml`.
-2. Обновить `CHANGELOG.md`.
-3. Сделать коммит `chore(release): X.Y.Z`.
-4. Поставить annotated tag `vX.Y.Z`.
-5. Push и push тегов выполняются только по явному запросу.
+1. Reviewer проверяет diff с прошлой версии, спеку и документы.
+2. Обновить `version` в `pyproject.toml` и `dlh/dbt/dbt_project.yml`.
+3. Обновить `CHANGELOG.md`.
+4. Сделать коммит `chore(release): X.Y.Z`.
+5. Поставить annotated tag `vX.Y.Z`.
+6. Push и push тегов выполняются только по явному запросу.
 
 ## 4. Текущее состояние
 

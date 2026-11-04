@@ -27,6 +27,7 @@ kanban-plugin: board
 - [x] [Выполнение SPEC-001](TASK-007-execute-spec.md)
 - [x] [Версионность и коммиты](TASK-008-versioning.md)
 - [x] [Роли субагентов](TASK-010-agent-roles.md)
+- [x] [Reviewer на границе версии](TASK-011-reviewer-version.md)
 
 
 
