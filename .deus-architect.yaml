@@ -17,5 +17,6 @@ artifacts:
   obsidian: docs/rules/tools.md
   environment: docs/rules/environment.md
   versioning: docs/rules/versioning.md
+  origin: docs/specs/SPEC-002-origin-and-secrets.md
 reviews: []
-open: [layer-naming]
+open: [origin-pending, layer-naming]

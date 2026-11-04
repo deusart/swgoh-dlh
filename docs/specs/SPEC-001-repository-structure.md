@@ -42,7 +42,8 @@ swgoh-dlh/
 │   │   ├── environment.md
 │   │   └── versioning.md
 │   ├── specs/
-│   │   └── SPEC-001-repository-structure.md
+│   │   ├── SPEC-001-repository-structure.md
+│   │   └── SPEC-002-origin-and-secrets.md
 │   └── tasks/
 │       ├── board.md
 │       ├── TASK-001-repository-reorganization.md
@@ -52,7 +53,8 @@ swgoh-dlh/
 │       ├── TASK-005-core-package.md
 │       ├── TASK-006-spec-simplification.md
 │       ├── TASK-007-execute-spec.md
-│       └── TASK-008-versioning.md
+│       ├── TASK-008-versioning.md
+│       └── TASK-009-origin-secrets.md
 ├── tools/
 │   └── check-docs.mjs
 └── dlh/

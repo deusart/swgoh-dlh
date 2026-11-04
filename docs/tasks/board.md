@@ -14,7 +14,7 @@ kanban-plugin: board
 
 ## Doing
 
-
+- [ ] [Origin и секреты](TASK-009-origin-secrets.md)
 
 ## Done
 
