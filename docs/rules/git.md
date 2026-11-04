@@ -36,7 +36,7 @@ feat(core)!: change raw envelope
 
 ## 3. Origin
 
-Origin не создан. Пока работаем локально. Remote добавляется только по явному согласию пользователя; подготовка описана в [SPEC-002](../specs/SPEC-002-origin-and-secrets.md). Push и push тегов без запроса не выполняются.
+Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Push ещё не выполнялся; push и push тегов выполняются только по отдельному запросу. Подготовка описана в [SPEC-002](../specs/SPEC-002-origin-and-secrets.md).
 
 ## 4. Версии и теги
 
