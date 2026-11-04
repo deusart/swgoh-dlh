@@ -1,0 +1,15 @@
+# DEV: локальная проба Comlink (SPEC-003).
+# Реальные ключи в файл не попадают: только подстановка из окружения.
+# Значения для COMLINK_ACCESS_KEY и COMLINK_SECRET_KEY берутся из .env
+# (корень репозитория, не коммитится) или из переменных окружения.
+
+services:
+  comlink:
+    image: ghcr.io/swgoh-utils/swgoh-comlink:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      APP_NAME: dlh
+      ACCESS_KEY: "${COMLINK_ACCESS_KEY:-}"
+      SECRET_KEY: "${COMLINK_SECRET_KEY:-}"

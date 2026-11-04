@@ -25,3 +25,8 @@ node tools/check-docs.mjs --strict
 ```
 
 Код 0 означает, что документы и compose валидны.
+
+## 3. Статус
+
+Compose создан и проходит `docker compose config`. Запуск контейнера и `/player` ещё не выполнены: нужен Docker daemon и ally code.
+
