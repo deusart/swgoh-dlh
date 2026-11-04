@@ -4,7 +4,7 @@ title: "Соглашение об именах"
 type: rule
 status: actual
 owner: architect
-date: 2026-11-04
+date: 2026-11-05
 ---
 
 # Соглашение об именах
@@ -29,15 +29,11 @@ date: 2026-11-04
 
 Имя файла: `<ID>-<slug>.md`, например `SPEC-001-repository-structure.md`. У spec и rule номер из трёх цифр, у adr из четырёх. Пропусков в нумерации нет.
 
-Для правил допускаются фиксированные имена `naming-convention.md`, `structure.md`, `git.md`, `tools.md`, `environment.md`; ID правила хранится в паспорте.
+Для правил допускаются фиксированные имена `naming-convention.md`, `structure.md`, `git.md`, `tools.md`, `environment.md`, `versioning.md`; ID правила хранится в паспорте.
 
 ## 3. Ветки и коммиты
 
-- Основная ветка: `main`.
-- Рабочие ветки: `feat/<slug>`, `fix/<slug>`, `docs/<slug>`, `chore/<slug>`.
-- Коммиты: Conventional Commits, `<type>(<scope>): <subject>`.
-- Типы: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`.
-- Subject на английском, императив, до 72 символов, без точки в конце.
+Ветки и коммиты описаны в [git.md](git.md). Здесь остаются только имена файлов и документов.
 
 ## 4. Язык
 

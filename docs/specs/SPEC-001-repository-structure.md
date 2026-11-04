@@ -5,7 +5,7 @@ type: spec
 status: implemented
 owner: architect
 date: 2026-11-05
-related: [RULE-001, RULE-002, RULE-003, RULE-004, RULE-005]
+related: [RULE-001, RULE-002, RULE-003, RULE-004, RULE-005, RULE-006]
 ---
 
 # Структура репозитория DLH
@@ -24,6 +24,7 @@ DLH: data lakehouse для данных игры SWGOH. `dlh/` это корен
 swgoh-dlh/
 ├── README.md
 ├── AGENTS.md
+├── CHANGELOG.md
 ├── .env.example
 ├── .gitignore
 ├── .deus-architect.yaml
@@ -38,7 +39,8 @@ swgoh-dlh/
 │   │   ├── structure.md
 │   │   ├── git.md
 │   │   ├── tools.md
-│   │   └── environment.md
+│   │   ├── environment.md
+│   │   └── versioning.md
 │   ├── specs/
 │   │   └── SPEC-001-repository-structure.md
 │   └── tasks/
@@ -49,7 +51,8 @@ swgoh-dlh/
 │       ├── TASK-004-dlh-structure.md
 │       ├── TASK-005-core-package.md
 │       ├── TASK-006-spec-simplification.md
-│       └── TASK-007-execute-spec.md
+│       ├── TASK-007-execute-spec.md
+│       └── TASK-008-versioning.md
 ├── tools/
 │   └── check-docs.mjs
 └── dlh/

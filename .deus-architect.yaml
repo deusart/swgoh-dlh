@@ -16,5 +16,6 @@ artifacts:
   docs: docs/index.md
   obsidian: docs/rules/tools.md
   environment: docs/rules/environment.md
+  versioning: docs/rules/versioning.md
 reviews: []
 open: [layer-naming]

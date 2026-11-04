@@ -4,7 +4,7 @@ title: "Git"
 type: rule
 status: actual
 owner: architect
-date: 2026-11-04
+date: 2026-11-05
 ---
 
 # Git
@@ -15,16 +15,37 @@ date: 2026-11-04
 
 ## 2. Коммиты
 
-Формат: Conventional Commits, `<type>(<scope>): <subject>`. Типы: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`. Subject на английском, императив, до 72 символов.
+Формат: Conventional Commits, `<type>(<scope>)!: <subject>`.
+
+- `type` обязателен: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `ci`.
+- `scope` опционален. Если указан, только из списка: `core`, `dbt`, `airflow`, `docker`, `docs`, `tools`.
+- `!` ставится при ломающем изменении.
+- Subject на английском, императив, до 72 символов, без точки в конце.
+
+Примеры:
+
+```text
+feat(core): add player extractor
+feat(dbt): add roster staging model
+fix(airflow): retry comlink timeout
+docs(spec): define local probe
+chore: scaffold dlh structure
+chore(release): 0.0.4
+feat(core)!: change raw envelope
+```
 
 ## 3. Origin
 
-Origin не создан. Remote добавляется только по явному согласию пользователя. Push и теги без запроса не выполняются.
+Origin не создан. Пока работаем локально. Remote добавляется только по явному согласию пользователя. Push и push тегов без запроса не выполняются.
 
-## 4. Запреты
+## 4. Версии и теги
+
+Версионность описана в [versioning.md](versioning.md). Релизный коммит: `chore(release): X.Y.Z`, затем annotated tag `vX.Y.Z`. Теги пока локальные.
+
+## 5. Запреты
 
 - Force-push в `main`.
 - Перезапись истории.
 - Удаление чужих веток.
 - Коммит секретов, ключей и `.env`.
-- Push тегов без запроса.
+- Push и push тегов без запроса.

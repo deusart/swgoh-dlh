@@ -2,17 +2,19 @@
 
 DLH: data lakehouse для данных игры SWGOH. Источник данных: `swgoh-comlink`. Хранилище: ClickHouse. Оркестрация: Airflow. Трансформации: dbt и Python.
 
-Статус: создан каркас структуры `dlh/`; бизнес-логики пока нет. Vault открывается от корня проекта, заметки лежат в `docs/`.
+Статус: создан каркас структуры `dlh/`; бизнес-логики пока нет. Версия `0.0.4`. Vault открывается от корня проекта, заметки лежат в `docs/`.
 
 ## 1. Документы
 
 - [Концепт](docs/concept/CONCEPT.md): подтверждённые компоненты и два сервера.
 - [Спека структуры](docs/specs/SPEC-001-repository-structure.md): дерево, правила размещения, критерии.
 - [Правила структуры](docs/rules/structure.md): назначение папок.
-- [Правила имён](docs/rules/naming-convention.md): файлы, ветки, коммиты.
+- [Правила имён](docs/rules/naming-convention.md): файлы и документы.
 - [Правила git](docs/rules/git.md): ветка, коммиты, origin.
+- [Версионность](docs/rules/versioning.md): SemVer, теги, роадмап.
 - [Инструменты](docs/rules/tools.md): Obsidian, плагины, восстановление vault.
 - [Окружения и референс](docs/rules/environment.md): DEV/SERVER и ориентир.
+- [Changelog](CHANGELOG.md).
 - [Доска задач](docs/tasks/board.md).
 - [Индекс документации](docs/index.md).
 
@@ -22,6 +24,7 @@ DLH: data lakehouse для данных игры SWGOH. Источник дан�
 swgoh-dlh/
 ├── README.md
 ├── AGENTS.md
+├── CHANGELOG.md
 ├── .env.example
 ├── .gitignore
 ├── .deus-architect.yaml
