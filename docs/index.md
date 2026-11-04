@@ -5,6 +5,7 @@
 | [concept/CONCEPT.md](concept/CONCEPT.md) | Подтверждённые компоненты и два сервера |
 | [specs/SPEC-001-repository-structure.md](specs/SPEC-001-repository-structure.md) | Структура репозитория, правила размещения, критерии |
 | [specs/SPEC-002-origin-and-secrets.md](specs/SPEC-002-origin-and-secrets.md) | Origin и хранение секретов |
+| [specs/SPEC-003-comlink-probe.md](specs/SPEC-003-comlink-probe.md) | Локальная проба Comlink |
 | [rules/naming-convention.md](rules/naming-convention.md) | Имена файлов, документов, веток и коммитов |
 | [rules/structure.md](rules/structure.md) | Назначение папок первого уровня |
 | [rules/git.md](rules/git.md) | Основная ветка, коммиты, origin |
@@ -23,3 +24,4 @@
 | [tasks/TASK-009-origin-secrets.md](tasks/TASK-009-origin-secrets.md) | Origin и секреты |
 | [tasks/TASK-010-agent-roles.md](tasks/TASK-010-agent-roles.md) | Роли субагентов |
 | [tasks/TASK-011-reviewer-version.md](tasks/TASK-011-reviewer-version.md) | Reviewer на границе версии |
+| [tasks/TASK-012-comlink-probe.md](tasks/TASK-012-comlink-probe.md) | Локальная проба Comlink |

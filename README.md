@@ -9,6 +9,7 @@ DLH: data lakehouse для данных игры SWGOH. Источник дан�
 - [Концепт](docs/concept/CONCEPT.md): подтверждённые компоненты и два сервера.
 - [Спека структуры](docs/specs/SPEC-001-repository-structure.md): дерево, правила размещения, критерии.
 - [Origin и секреты](docs/specs/SPEC-002-origin-and-secrets.md): remote, `.env`, проверка перед push.
+- [Локальная проба Comlink](docs/specs/SPEC-003-comlink-probe.md): compose и первый запрос.
 - [Правила структуры](docs/rules/structure.md): назначение папок.
 - [Правила имён](docs/rules/naming-convention.md): файлы и документы.
 - [Правила git](docs/rules/git.md): ветка, коммиты, origin.

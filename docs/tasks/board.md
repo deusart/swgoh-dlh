@@ -14,7 +14,7 @@ kanban-plugin: board
 
 ## Doing
 
-
+- [ ] [Локальная проба Comlink](TASK-012-comlink-probe.md)
 
 ## Done
 

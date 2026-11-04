@@ -44,7 +44,8 @@ swgoh-dlh/
 │   │   └── agents.md
 │   ├── specs/
 │   │   ├── SPEC-001-repository-structure.md
-│   │   └── SPEC-002-origin-and-secrets.md
+│   │   ├── SPEC-002-origin-and-secrets.md
+│   │   └── SPEC-003-comlink-probe.md
 │   └── tasks/
 │       ├── board.md
 │       ├── TASK-001-repository-reorganization.md
@@ -57,7 +58,8 @@ swgoh-dlh/
 │       ├── TASK-008-versioning.md
 │       ├── TASK-009-origin-secrets.md
 │       ├── TASK-010-agent-roles.md
-│       └── TASK-011-reviewer-version.md
+│       ├── TASK-011-reviewer-version.md
+│       └── TASK-012-comlink-probe.md
 ├── tools/
 │   └── check-docs.mjs
 └── dlh/
