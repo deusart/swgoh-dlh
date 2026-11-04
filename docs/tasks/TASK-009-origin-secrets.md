@@ -2,7 +2,7 @@
 id: TASK-009
 title: "Origin и секреты"
 type: task
-status: doing
+status: done
 owner: architect
 date: 2026-11-05
 related: [SPEC-002, RULE-003, RULE-006]
@@ -17,12 +17,11 @@ related: [SPEC-002, RULE-003, RULE-006]
 - Версия решения поднята до `0.0.5`.
 - Проверено, что `.env` исключён из git.
 - Origin добавлен: `https://github.com/deusart/swgoh-dlh.git`.
+- `main` и теги `v0.0.4`, `v0.0.5` отправлены в origin.
 
 ## 2. Что осталось
 
-- Проверить историю на секреты.
-- Выполнить первый push только по отдельному запросу.
-- Отправить тег `v0.0.5` только по отдельному запросу.
+- Нет. Origin создан, push выполнен.
 
 ## 3. Проверка
 

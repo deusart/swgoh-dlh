@@ -36,7 +36,7 @@ feat(core)!: change raw envelope
 
 ## 3. Origin
 
-Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Push ещё не выполнялся; push и push тегов выполняются только по отдельному запросу. Подготовка описана в [SPEC-002](../specs/SPEC-002-origin-and-secrets.md).
+Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Ветка `main` и теги отправлены; дальнейшие push и push тегов выполняются только по отдельному запросу. Подготовка описана в [SPEC-002](../specs/SPEC-002-origin-and-secrets.md).
 
 ## 4. Версии и теги
 

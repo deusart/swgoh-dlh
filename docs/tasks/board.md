@@ -14,7 +14,7 @@ kanban-plugin: board
 
 ## Doing
 
-- [ ] [Origin и секреты](TASK-009-origin-secrets.md)
+
 
 ## Done
 
@@ -28,6 +28,7 @@ kanban-plugin: board
 - [x] [Версионность и коммиты](TASK-008-versioning.md)
 - [x] [Роли субагентов](TASK-010-agent-roles.md)
 - [x] [Reviewer на границе версии](TASK-011-reviewer-version.md)
+- [x] [Origin и секреты](TASK-009-origin-secrets.md)
 
 
 

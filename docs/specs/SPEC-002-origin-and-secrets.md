@@ -2,7 +2,7 @@
 id: SPEC-002
 title: "Origin и секреты"
 type: spec
-status: approved
+status: implemented
 owner: architect
 date: 2026-11-05
 related: [RULE-003, RULE-006]
@@ -12,7 +12,7 @@ related: [RULE-003, RULE-006]
 
 ## 1. Контекст
 
-Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Ветка `main`, текущий тег `v0.0.5`; push ещё не выполнялся. Версия `0.0.5` посвящена origin и месту для секретов. Реальные креды в git не попадают.
+Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Ветка `main` и теги `v0.0.4`, `v0.0.5` отправлены в origin. Версия `0.0.5` посвящена origin и месту для секретов. Реальные креды в git не попадают.
 
 Секреты нужны для:
 
@@ -80,7 +80,7 @@ Origin создан: `https://github.com/deusart/swgoh-dlh.git`. Ветка `mai
 - [x] `.env` исключён из git.
 - [x] В истории нет реальных секретов.
 - [x] Origin URL согласован и remote добавлен только после этого.
-- [ ] Первый push выполнен только по явному запросу.
+- [x] Первый push выполнен только по явному запросу.
 - [x] `node tools/check-docs.mjs --strict` возвращает 0.
 
 ## 4. Что не входит
