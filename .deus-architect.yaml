@@ -18,5 +18,6 @@ artifacts:
   environment: docs/rules/environment.md
   versioning: docs/rules/versioning.md
   origin: docs/specs/SPEC-002-origin-and-secrets.md
+  roles: docs/rules/agents.md
 reviews: []
 open: [layer-naming]

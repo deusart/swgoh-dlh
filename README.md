@@ -15,6 +15,7 @@ DLH: data lakehouse для данных игры SWGOH. Источник дан�
 - [Версионность](docs/rules/versioning.md): SemVer, теги, роадмап.
 - [Инструменты](docs/rules/tools.md): Obsidian, плагины, восстановление vault.
 - [Окружения и референс](docs/rules/environment.md): DEV/SERVER и ориентир.
+- [Роли субагентов](docs/rules/agents.md): architect, data-engineer, devops, reviewer.
 - [Changelog](CHANGELOG.md).
 - [Доска задач](docs/tasks/board.md).
 - [Индекс документации](docs/index.md).

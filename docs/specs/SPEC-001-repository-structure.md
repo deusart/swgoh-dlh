@@ -40,7 +40,8 @@ swgoh-dlh/
 │   │   ├── git.md
 │   │   ├── tools.md
 │   │   ├── environment.md
-│   │   └── versioning.md
+│   │   ├── versioning.md
+│   │   └── agents.md
 │   ├── specs/
 │   │   ├── SPEC-001-repository-structure.md
 │   │   └── SPEC-002-origin-and-secrets.md
@@ -54,7 +55,8 @@ swgoh-dlh/
 │       ├── TASK-006-spec-simplification.md
 │       ├── TASK-007-execute-spec.md
 │       ├── TASK-008-versioning.md
-│       └── TASK-009-origin-secrets.md
+│       ├── TASK-009-origin-secrets.md
+│       └── TASK-010-agent-roles.md
 ├── tools/
 │   └── check-docs.mjs
 └── dlh/

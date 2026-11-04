@@ -29,7 +29,7 @@ date: 2026-11-05
 
 Имя файла: `<ID>-<slug>.md`, например `SPEC-001-repository-structure.md`. У spec и rule номер из трёх цифр, у adr из четырёх. Пропусков в нумерации нет.
 
-Для правил допускаются фиксированные имена `naming-convention.md`, `structure.md`, `git.md`, `tools.md`, `environment.md`, `versioning.md`; ID правила хранится в паспорте.
+Для правил допускаются фиксированные имена `naming-convention.md`, `structure.md`, `git.md`, `tools.md`, `environment.md`, `versioning.md`, `agents.md`; ID правила хранится в паспорте.
 
 ## 3. Ветки и коммиты
 

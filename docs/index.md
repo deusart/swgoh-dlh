@@ -11,6 +11,7 @@
 | [rules/versioning.md](rules/versioning.md) | SemVer, теги, роадмап |
 | [rules/tools.md](rules/tools.md) | Obsidian, плагины, восстановление vault |
 | [rules/environment.md](rules/environment.md) | DEV/SERVER и референс |
+| [rules/agents.md](rules/agents.md) | Роли субагентов и handoff |
 | [tasks/TASK-001-repository-reorganization.md](tasks/TASK-001-repository-reorganization.md) | Реорганизация репозитория |
 | [tasks/TASK-002-obsidian-plugins.md](tasks/TASK-002-obsidian-plugins.md) | Реконфигурация Obsidian |
 | [tasks/TASK-003-root-vault.md](tasks/TASK-003-root-vault.md) | Vault от корня проекта |
@@ -20,3 +21,4 @@
 | [tasks/TASK-007-execute-spec.md](tasks/TASK-007-execute-spec.md) | Выполнение SPEC-001 |
 | [tasks/TASK-008-versioning.md](tasks/TASK-008-versioning.md) | Версионность и коммиты |
 | [tasks/TASK-009-origin-secrets.md](tasks/TASK-009-origin-secrets.md) | Origin и секреты |
+| [tasks/TASK-010-agent-roles.md](tasks/TASK-010-agent-roles.md) | Роли субагентов |

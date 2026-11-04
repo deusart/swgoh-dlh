@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Added
+
+- Роли субагентов и handoff.
+- Обновлён `AGENTS.md`.
+
 ## [0.0.5] - 2026-11-05
 
 ### Added

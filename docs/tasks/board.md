@@ -26,6 +26,7 @@ kanban-plugin: board
 - [x] [Упрощение SPEC-001](TASK-006-spec-simplification.md)
 - [x] [Выполнение SPEC-001](TASK-007-execute-spec.md)
 - [x] [Версионность и коммиты](TASK-008-versioning.md)
+- [x] [Роли субагентов](TASK-010-agent-roles.md)
 
 
 
