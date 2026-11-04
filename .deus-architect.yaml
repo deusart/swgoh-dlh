@@ -1,0 +1,20 @@
+skill: deus-architect
+skill_version: 2.1.0
+level: medium
+checked_at: 2026-11-05
+domains:
+  naming: done
+  structure: done
+  git: done
+  agents: done
+  docs: done
+artifacts:
+  naming: docs/rules/naming-convention.md
+  structure: docs/rules/structure.md
+  git: docs/rules/git.md
+  agents: AGENTS.md
+  docs: docs/index.md
+  obsidian: docs/rules/tools.md
+  environment: docs/rules/environment.md
+reviews: []
+open: [layer-naming]

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlh"
+version = "0.1.0"
+description = "DLH data lakehouse for SWGOH"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "dlh"}
+packages = ["core", "core.etl", "core.ops"]
+
+[tool.pytest.ini_options]
+testpaths = ["dlh/tests"]
